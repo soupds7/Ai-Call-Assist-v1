@@ -47,7 +47,7 @@ const Aicalling = () => {
     }
 
     try {
-      await axios.post("https://dsense.app.n8n.cloud/webhook-test/register", payload, {
+      await axios.post("https://dsense.app.n8n.cloud/webhook/register", payload, {
         headers: {
           "Content-Type": "application/json",
         },
